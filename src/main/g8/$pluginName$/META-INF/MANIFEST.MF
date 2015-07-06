@@ -6,7 +6,7 @@ Bundle-Version: 0.1.0.qualifier
 Bundle-Vendor: $providerName$
 Bundle-ActivationPolicy: lazy
 Bundle-Localization: plugin
-Require-Bundle:
+Require-Bundle: 
  org.eclipse.core.runtime,
  org.eclipse.debug.ui,
  org.eclipse.help,
@@ -24,7 +24,7 @@ Require-Bundle:
  org.scala-lang.scala-library,
  org.scala-lang.scala-compiler,
  org.scala-ide.sdt.core;bundle-version="[4.0.0, 5.0.0)"
-Import-Package:
+Import-Package: 
  com.ibm.icu.text;apply-aspects:=false;org.eclipse.swt.graphics;apply-aspects:=false
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ClassPath: .
